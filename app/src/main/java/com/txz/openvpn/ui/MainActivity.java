@@ -1,5 +1,6 @@
 package com.txz.openvpn.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.txz.fwh.Acitivity.LoginActivity;
 import com.txz.openvpn.client.R;
 import com.txz.openvpn.data.model.VpnConfigFile;
 import com.txz.openvpn.logic.VpnUiLogic;
@@ -35,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements VpnUiLogic.UiLogi
 
         initView();
         initVpn();
+        initStartActivity();
+    }
+    private void initStartActivity(){
+        startActivity(new Intent().setClass(MainActivity.this, LoginActivity.class));
     }
 
     private void initVpn() {
