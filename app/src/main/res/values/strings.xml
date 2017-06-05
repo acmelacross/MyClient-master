@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OpenVpn Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="state_welcome">Tap on the bottom button to start</string>
+</resources>
