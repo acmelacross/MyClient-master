@@ -9,7 +9,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by singun on 2017/3/4 0004.
+ * Created byfff on 2017/3/4 0004.
  */
 
 public class VpnAutoConfig {

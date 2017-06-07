@@ -13,7 +13,7 @@ import com.txz.openvpn.data.model.VpnConfigFile;
 import java.util.List;
 
 /**
- * Created by singun on 2017/3/4 0004.
+ * Created byfff on 2017/3/4 0004.
  */
 
 public class VpnConfigListAdapter extends RecyclerView.Adapter<VpnConfigListAdapter.ViewHolder> {

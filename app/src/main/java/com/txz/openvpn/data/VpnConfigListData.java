@@ -7,7 +7,7 @@ import com.txz.openvpn.data.model.VpnConfigFile;
 import java.util.List;
 
 /**
- * Created by singun on 2017/3/4 0004.
+ * Created byfff on 2017/3/4 0004.
  */
 
 public class VpnConfigListData implements DataStorage.DataLoadListener, DataRequest.RequestListener {

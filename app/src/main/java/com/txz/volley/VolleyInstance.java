@@ -8,7 +8,7 @@ import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.Volley;
 
 /**
- * Created by singun on 2017/3/5 0005.
+ * Created byfff on 2017/3/5 0005.
  */
 
 public class VolleyInstance {

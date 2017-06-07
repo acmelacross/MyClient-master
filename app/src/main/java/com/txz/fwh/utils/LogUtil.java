@@ -1,6 +1,5 @@
-package com.txz.fwh.Utils;
+package com.txz.fwh.utils;
 
-import com.txz.openvpn.client.BuildConfig;
 
 public class LogUtil {
    // private static String tag = BuildConfig.TAG;

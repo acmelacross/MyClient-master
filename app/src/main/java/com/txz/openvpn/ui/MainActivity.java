@@ -13,7 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.txz.fwh.Acitivity.LoginActivity;
+import com.txz.fwh.acitivity.LoginActivity;
 import com.txz.openvpn.client.R;
 import com.txz.openvpn.data.model.VpnConfigFile;
 import com.txz.openvpn.logic.VpnUiLogic;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements VpnUiLogic.UiLogi
         mActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mVpnUiLogic.connectOrDisconnect();
+                mVpnUiLogic.connectOrDisconnect("","");
             }
         });
     }

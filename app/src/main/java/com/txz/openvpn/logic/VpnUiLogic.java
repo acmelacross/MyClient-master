@@ -11,7 +11,7 @@ import java.util.List;
 import de.blinkt.openvpn.core.VpnStatus;
 
 /**
- * Created by singun on 2017/3/4 0004.
+ * Created byfff on 2017/3/4 0004.
  */
 
 public class VpnUiLogic implements OpenVpnConnectWrapper.VpnStateListener,
@@ -36,8 +36,8 @@ public class VpnUiLogic implements OpenVpnConnectWrapper.VpnStateListener,
         mListener = null;
     }
 
-    public void connectOrDisconnect() {
-        mVpnConnect.connectOrDisconnect();
+    public void connectOrDisconnect(String uName,String uP) {
+        mVpnConnect.connectOrDisconnect( uName, uP);
     }
 
     @Override

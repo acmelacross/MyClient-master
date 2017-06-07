@@ -1,4 +1,4 @@
-package com.txz.fwh.Acitivity;
+package com.txz.fwh.acitivity;
 
 
 import android.app.Activity;

@@ -5,6 +5,11 @@
   ~ Distributed under the GNU GPL v2 with additional terms. For full terms see the file doc/LICENSE.txt
   -->
 <resources>
+  <string name="error_login_errorpass_or_timeout">账号或密码错误，或者账号已到期</string>
+
+
+
+
   <string name="app">OpenVPN for Android</string>
   <string name="address">服务器地址：</string>
   <string name="port">服务器端口：</string>

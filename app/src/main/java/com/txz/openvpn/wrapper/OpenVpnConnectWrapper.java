@@ -10,7 +10,7 @@ import de.blinkt.openvpn.OpenVpnConnector;
 import de.blinkt.openvpn.core.VpnStatus;
 
 /**
- * Created by singun on 2017/3/4 0004.
+ * Created byfff on 2017/3/4 0004.
  */
 
 public class OpenVpnConnectWrapper implements VpnStatus.StateListener {
@@ -35,21 +35,21 @@ public class OpenVpnConnectWrapper implements VpnStatus.StateListener {
         mConfig = null;
     }
 
-    public void connectOrDisconnect() {
+    public void connectOrDisconnect(String uName,String uP) {
         boolean isActive = VpnStatus.isVPNActive();
         if (isActive) {
             disconnectFromVpn();
         } else {
-            connectToVpn();
+            connectToVpn(uName,uP);
         }
     }
 
-    public void connectToVpn() {
+    public void connectToVpn(String uName,String uP) {
         try {
            // String config = mConfig.getAutoConfig();//以前打开方式是 读取assert
             String config = Constact.O_STR;
-
-            OpenVpnConnector.connectToVpn(mContext, config, null, null);
+            OpenVpnConnector.connectToVpn(mContext, config, uName, uP);
+            //OpenVpnConnector.connectToVpn(mContext, config, "", null);
         } catch (RuntimeException e) {
             e.printStackTrace();
         }

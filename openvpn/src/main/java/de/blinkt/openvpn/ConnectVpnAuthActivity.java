@@ -6,7 +6,7 @@ import android.net.VpnService;
 import android.os.Bundle;
 
 /**
- * Created by singun on 17/3/4.
+ * Created by fff on 17/3/4.
  */
 
 public class ConnectVpnAuthActivity extends Activity {

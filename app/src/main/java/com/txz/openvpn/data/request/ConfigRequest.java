@@ -6,7 +6,7 @@ import com.android.volley.toolbox.JsonRequest;
 import com.txz.openvpn.data.model.VpnConfigFile;
 
 /**
- * Created by singun on 2017/3/5 0005.
+ * Created byfff on 2017/3/5 0005.
  */
 
 public class ConfigRequest extends JsonRequest<VpnConfigFile> {
